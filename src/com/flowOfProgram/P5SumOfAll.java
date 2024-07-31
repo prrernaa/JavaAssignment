@@ -13,16 +13,18 @@ public class P5SumOfAll {
         int sum=0;
 
         while(true){
-            System.out.println("Enter two numbers : ");
+            System.out.println("Enter  number : ");
             Scanner ob=new Scanner(System.in);
             char n1=ob.next().charAt(0);
 
             if(n1=='x' || n1=='X'){
-                
-
+                break;
+            }else{
+                sum = sum + n1;
             }
 
 
         }
+        System.out.println(sum);
     }
 }
